@@ -42,6 +42,19 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UIDatas\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\gmFucker.DataAccess\gmFucker.Adapter.csproj">
+      <Project>{fd16e357-9b6c-4537-b4ca-c80ef71f68b0}</Project>
+      <Name>gmFucker.Adapter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\gmFucker.Utility\gmFucker.Utility.csproj">
+      <Project>{4c9d1990-9649-4612-90d4-9c456715d77a}</Project>
+      <Name>gmFucker.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
