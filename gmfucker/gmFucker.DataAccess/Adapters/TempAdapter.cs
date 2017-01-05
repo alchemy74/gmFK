@@ -1,4 +1,5 @@
-﻿using gmFucker.DataAccess.Models;
+﻿using gmFucker.DataAccess.Base;
+using gmFucker.DataAccess.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
