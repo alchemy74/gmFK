@@ -40,11 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapters\DataAdapterBase.cs" />
+    <Compile Include="Adapters\TempAdapter.cs" />
+    <Compile Include="Base\StoreProcedures.cs" />
+    <Compile Include="Models\OrderWithThirdPartyPayEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Adapters\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\gmFucker.Utility\gmFucker.Utility.csproj">
       <Project>{4c9d1990-9649-4612-90d4-9c456715d77a}</Project>
