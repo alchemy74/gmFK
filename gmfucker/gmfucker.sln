@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gmFucker.Utility", "gmFucke
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gmFucker.Adapter", "gmFucker.DataAccess\gmFucker.Adapter.csproj", "{FD16E357-9B6C-4537-B4CA-C80EF71F68B0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC_Web", "MVC_Web", "{4395060D-8855-483B-B0B0-B5451AC9B873}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79AB469A-E927-46E7-A58E-44A09925B269} = {4395060D-8855-483B-B0B0-B5451AC9B873}
+		{6DD284C7-D196-4C35-8059-64D8CACB905D} = {4395060D-8855-483B-B0B0-B5451AC9B873}
+		{4C9D1990-9649-4612-90D4-9C456715D77A} = {4395060D-8855-483B-B0B0-B5451AC9B873}
+		{FD16E357-9B6C-4537-B4CA-C80EF71F68B0} = {4395060D-8855-483B-B0B0-B5451AC9B873}
 	EndGlobalSection
 EndGlobal
